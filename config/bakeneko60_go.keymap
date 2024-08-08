@@ -71,24 +71,14 @@
     combos {
         compatible = "zmk,combos";
 
-        right_arrow {
-            bindings = <&kp RIGHT>;
-            key-positions = <61 62>;
+        right {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <62 61>;
         };
 
-        left_arrow {
-            bindings = <&kp LEFT>;
+        left {
+            bindings = <&kp LEFT_ARROW>;
             key-positions = <62 60>;
-        };
-
-        up_arrow {
-            bindings = <&kp UP>;
-            key-positions = <61 52>;
-        };
-
-        down_arrow {
-            bindings = <&kp DOWN>;
-            key-positions = <61 60>;
         };
     };
 };
