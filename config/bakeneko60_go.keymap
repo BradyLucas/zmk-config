@@ -77,7 +77,7 @@
         };
 
         left_arrow {
-            bindings = <&kp LEFT_ARROW>;
+            bindings = <&kp LEFT>;
             key-positions = <62 60>;
         };
     };
