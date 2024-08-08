@@ -73,12 +73,22 @@
 
         right_arrow {
             bindings = <&kp RIGHT>;
-            key-positions = <62 61>;
+            key-positions = <61 62>;
         };
 
         left_arrow {
             bindings = <&kp LEFT>;
             key-positions = <62 60>;
+        };
+
+        up_arrow {
+            bindings = <&kp UP>;
+            key-positions = <61 52>;
+        };
+
+        down_arrow {
+            bindings = <&kp DOWN>;
+            key-positions = <61 60>;
         };
     };
 };
